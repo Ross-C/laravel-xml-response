@@ -42,8 +42,8 @@ class LaravelXmlServiceProvider extends ServiceProvider
          * @return \Bmatovu\LaravelXml\Support\XmlElement
          */
         Request::macro('xml', function () {
-            if (! $this->isXml() || ! $content = $this->getContent()) {
-                return new XmlElement('<document></document>');
+            if (!$this->isXml() || !$content = $this->getContent()) {
+                return new XmlElement('<result></result>');
             }
 
             return simplexml_load_string($content, XmlElement::class);
