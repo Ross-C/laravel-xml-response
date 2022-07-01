@@ -1,7 +1,6 @@
 {
-  "name": "bmatovu/laravel-xml",
-  "description": "Laravel XML Support",
-  "homepage": "https://github.com/mtvbrianking/laravel-xml",
+  "name": "rosscuk/laravel-xml",
+  "description": "Laravel XML Support - Forked from Brian Matovu",
   "type": "library",
   "license": "MIT",
   "keywords": [
